@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cocina de Tomás</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-nombre">La cocina de Tomas</h1>
+            <img src="imagenes/logosinfondo.png" alt="la cocina de tomas" class="logo-img">
+        </div>
+        
+    </header>
+    <div class="fijos">
+        <div class="wsp-btn">
+            <a href="https://api.whatsapp.com/send?phone=5491138812522" target="_blank"><img src="imagenes/WhatsApp-logo.png" alt="logo-wsp"/></a>
+
+        </div>
+        <div class="arriba-btn">
+            <a href="#inicio"><img src="imagenes/flecha-up.jpg" alt="arriba" ></a>
+
+        </div>
+
+
+    </div>
+    <a name="inicio"/>
+    <div class="cards">
+        <b class="telef">HACE TU PEDIDO AL 15-3881 2522</b>
+        <a href="#promociones" id="promo"><h3>PROMOCIONES</h3></a><br>
+        <a href="#pizzas" id="pizza"><h3>PIZZAS</h3></a><br>
+        <a href="#empanadas" id="empa"><h3>EMPANADAS</h3></a><br>
+        <a href="#hamburguesas" id="burger"><h3>HAMBURGUESAS</h3></a><br>
+        <a href="#milanesas" id="milas"><h3>MILANESAS</h3></a><br>
+        <a href="#papasf" id="papas"><h3>PAPAS FRITAS</h3></a><br>
+        <a href="#minutas" id="resto"><h3>MINUTAS</h3></a><br>
+        <a href="#bebidas2" id="bebidas"><h3>BEBIDAS</h3></a><br>
+    
+    </div>
+    <!-- --------------------POP UP------------------- -->
+    <div class="popup">
+        <h3>NUEVO PRODUCTO!</h3>
+        <img class="imagen"  src="imagenes/menu14.jpg" alt="promocion hamburguesas">
+        <script>
+            setTimeout(function(){
+              document.querySelector(".popup").style.display = "none";
+            }, 3000);
+        </script>
+    </div>
+
+    <div class="listado">
+        <a name="promociones"/>
+        <b class="telef">HACE TU PEDIDO AL 15-3881 2522</b>
+
+        <h2>Promociones de la Semana</h2>
+        <h3 class="subtitulo">Pizzas</h3>
+        <div id="grid">
+            <div id="areaA">3 Grandes de Muzzarella</div>
+            <div id="areaB">$ 3600</div>
+            <div id="areaA">1 Doble Muzzarella, 1 de Jamón y morrones</div>
+            <div id="areaB">$ 3100</div>
+            <div id="areaA">1 Muzza, 1 Napolitana, 1 Jamón y morrones</div>
+            <div id="areaB">$ 4200</div>
+            
+        </div>
+        <h3 class="subtitulo">Pizzas y Empanadas</h3>
+        <div id="grid">
+            <div id="areaA">18 Empanadas</div>
+            <div id="areaB">$ 3200</div>
+            <div id="areaA">1 Pizza de Muzzarella + 1 Docena</div>
+            <div id="areaB">$ 3200</div>
+            <div id="areaA">1 Pizza de Muzzarella + 1/2 Docena</div>
+            <div id="areaB">$ 2400</div>
+            <div id="areaA">1 Pizza de Jamón y morrones + 1 Docena</div>
+            <div id="areaB">$ 3600</div>
+            <div id="areaA">2 Pizzas de Muzzarella + 1 Docena</div>
+            <div id="areaB">$ 4300</div>
+        </div>
+        <h3 class="subtitulo">Hamburguesas</h3>
+        <div id="grid">
+            <div id="areaA">Promo familiar Burger<i class="aclaracion">- 4 hamburguesas xl completas + 1 caja de papas con cheddar</i></div>
+            <div id="areaB">$ 3500</div>
+            <div id="areaA">2 Hamburguesas XL completas con fritas<i class="aclaracion">- Jamón, queso, lechuga, tomate, huevo</i></div>
+            <div id="areaB">$ 1800</div>
+        </div>           
+                  
+    <a name="pizzas"/>    
+    <h2>Pizzas</h2> 
+    <div id="grid">
+        <div id="areaA">Muzzarella</div>
+        <div id="areaB">$ 1300</div>
+        <div id="areaA">Doble Muzzarella</div>
+        <div id="areaB">$ 1700</div>
+        <div id="areaA">Napolitana</div>
+        <div id="areaB">$ 1600</div>
+        <div id="areaA">Napolitana con Jamón</div>
+        <div id="areaB">$ 1700</div>
+        <div id="areaA">Jamón y morrones</div>
+        <div id="areaB">$ 1700</div>
+        <div id="areaA">Muzza con jamón</div>
+        <div id="areaB">$ 1550</div>
+        <div id="areaA">Calabresa</div>
+        <div id="areaB">$ 1700</div>
+        <div id="areaA">Fugazzeta</div>
+        <div id="areaB">$ 1450</div>
+        <div id="areaA">Roquefort</div>
+        <div id="areaB">$ 1700</div>
+        <div id="areaA">Muzzarella con panceta</div>
+        <div id="areaB">$ 1650</div>
+        <div id="areaA">Muzzarella, panceta y cheddar</div>
+        <div id="areaB">$ 1750</div>
+        <div id="areaA">Muzza con papas y huevos fritos</div>
+        <div id="areaB">$ 1750</div>
+        <div id="areaA">Jamón y morrones Premium <i class="aclaracion">- Doble muzza, doble jamón</i></div>
+        <div id="areaB">$ 1900</div>
+    </div>
+    
+
+    <a name="empanadas"/a>    
+    <h2>Empanadas</h2>  
+    <div id="grid">
+        <div id="areaA">1 Docena</div>
+        <div id="areaB">$ 2100</div>
+        <div id="areaA">1/2 Docena</div>
+        <div id="areaB">$ 1300</div>
+        <div id="areaA">Por unidad</div>
+        <div id="areaB">$ 230</div>
+    </div>
+    
+    <h3 class="subtitulo">Variedades</h3>
+        <p>Carne // Pollo // Jamón y queso // Carne, cheddar y verdeo // Pollo con barbacoa // Calabresa // Caprese // Carne picante // Cebolla y queso // Roqueort // Roquefort con Jamón</p>
+    
+    <a name="hamburguesas"/a>    
+    <h2>Hamburguesas</h2> 
+    <h3 class="subtitulo">Todas son XL con fritas</h3>
+    <div id="grid">
+        <div id="areaA">Simple</div>
+        <div id="areaB">$ 900</div>
+        <div id="areaA">Completa<i class="aclaracion">- Jamón, queso, lechuga, tomate, y huevo.</i></div>
+        <div id="areaB">$ 1000</div>
+        <div id="areaA">Jamón y queso</div>
+        <div id="areaB">$ 950</div>
+        <div id="areaA">Napolitana</div>
+        <div id="areaB">$ 1000</div>
+        <div id="areaA">Doble carne, doble cheddar. Completa</div>
+        <div id="areaB">$ 1500</div>
+        
+    </div>    
+      
+    <a name="milanesas"/>
+    <h2>Milanesas</h2> 
+    <h3 class="subtitulo">Sandwich con fritas<i class="aclaracion">...(con pan de pizza)</i></h3>
+    <div id="grid">
+        <div id="areaA">Simple.</div>
+        <div id="areaB">$ 1500</div>
+        <div id="areaA">Completo<i class="aclaracion">- Jamón, queso, lechuga, tomate, y huevo. (para compartir)</i></div>
+        <div id="areaB">$ 1900</div>
+        <div id="areaA">Napolitano</div>
+        <div id="areaB">$ 2100</div>
+        <div id="areaA">Americano<i class="aclaracion">- Con cheddar, bacon, y cebolla caramelizada</i></div>
+        <div id="areaB">$ 2100</div>
+    </div>
+    <h3 class="subtitulo">Al plato...<i class="aclaracion">con papas fritas o puré</i></h3>
+    <div id="grid">
+        <div id="areaA">Simple.</div>
+        <div id="areaB">$ 1500</div>
+        <div id="areaA">A Caballo</div>
+        <div id="areaB">$ 1750</div>
+        <div id="areaA">Napolitana</div>
+        <div id="areaB">$ 2000</div>
+        <div id="areaA">Napolitana con panceta y cheddar</div>
+        <div id="areaB">$ 2100</div>
+    </div>
+    <h3 class="subtitulo">Gigantes de la casa...<i class="aclaracion">Comen 3 (con papas fritas) </i></h3>
+    <div id="grid">
+    <div id="areaA">Napolitana</div>
+        <div id="areaB">$ 2850</div>
+        <div id="areaA">Napolitana con panceta, cheddar y verdeo<i class="aclaracion">- las papas con cheddar y verdeo</i></div>
+        <div id="areaB">$ 3100</div>
+        <div id="areaA">Napolitana con panceta, cheddar y verdeo A caballo.<i class="aclaracion">- las papas con cheddar y verdeo</i></div>
+        <div id="areaB">$ 3200</div>
+    </div>       
+    <a name="papasf"/a>    
+    <h2>Papas Fritas</h2>
+    <h3 class="subtitulo">Porción chica: individual // Porción grande: 2 a 3 personas</h3> 
+    <div id="grid-2">
+        <div id="areaA">VARIEDAD</div>
+        <div id="areaB">CHICA</div>
+        <div id="areaC">GRANDE</div>
+        <div id="areaA">Simple.</div>
+        <div id="areaB">$ 550</div>
+        <div id="areaC">$ 700</div>
+        <div id="areaA">Con Cheddar</div>
+        <div id="areaB">$ 700</div>
+        <div id="areaC">$ 950</div>
+        <div id="areaA">Con Jamón, cheddar y verdeo</div>
+        <div id="areaB">$ 750</div>
+        <div id="areaC">$ 990</div>
+        <div id="areaA">Con Panceta, cheddar y verdeo</div>
+        <div id="areaB">$ 850</div>
+        <div id="areaC">$ 1100</div>
+        <div id="areaA">Con Salchichas, cheddar y verdeo</div>
+        <div id="areaB">$ 850</div>
+        <div id="areaC">$ 1100</div>
+    </div>  
+    
+    
+    <a name="minutas"/>    
+        <h2>Minutas</h2> 
+
+        <h3 class="subtitulo">Tortilla de Papas... <i class="aclaracion">_ (Para compartir)</i></h3>
+        <div id="grid">
+            <div id="areaA">Simple.</div>
+            <div id="areaB">$1150</div>
+            <div id="areaA">Rellena con jamón y muzzarella</div>
+            <div id="areaB">$ 1400</div>
+            <div id="areaA">Rellena con Roquefort y muzzarella</div>
+            <div id="areaB">$ 1500</div>
+            <div id="areaA">Rellena con Longaniza y muzzarella</div>
+            <div id="areaB">$ 1550</div>
+        </div>    
+            <h3 class="subtitulo">Pastel de Papas</h3>
+        <div id="grid">
+            <div id="areaA">De carne</div>
+            <div id="areaB">$ 1050</div>
+            <div id="areaA">De pollo</div>
+            <div id="areaB">$ 1100</div>
+
+        </div>
+ <a name="bebidas2"/a>    
+        <h2>Bebidas</h2> 
+    <div id="grid">
+        <div id="areaA">Gaseosa línea Coca Cola 2250cc.</div>
+        <div id="areaB">$ 700</div>
+        <div id="areaA">Gaseosa línea Manaos 2250cc.</div>
+        <div id="areaB">$ 430</div>
+        <div id="areaA">Cerveza Quilmes o Brahama 1 Litro . <i class="aclaracion">(Requiere retorno del envase)</i></div>
+        <div id="areaB">$ 700</div>
+        <div id="areaA">Agua saborizada Levité 1500 cc.</div>
+        <div id="areaB">$ 450</div>
+        <br>
+    </div>
+        
+
+
+
+    </div>
+    <footer>
+
+        <div class="copir">
+            <a href="https://api.whatsapp.com/send?phone=5491128071939" target="_blank"><h3 class="wsdweb">Fernando Reyes :: Web design :: Tel. 1128071939</h3></a>
+            
+        </div>  
+    </footer> 
+    
+</body>
+</html>

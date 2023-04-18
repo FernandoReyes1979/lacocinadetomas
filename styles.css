@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 0;
+     background-image: url(https://thumbs.dreamstime.com/b/patr%C3%B3n-transparente-de-art%C3%ADculos-comida-r%C3%A1pida-en-un-fondo-negro-conjunto-doodle-dibujado-mano-ilustraci%C3%B3n-vectorial-200598354.jpg);
+    background-color: rgba(0, 0, 0, 0.35);
+    min-width: 375px;
+    
+
+}
+header{
+    justify-content: space-between;
+    align-items: center; 
+    height: 120px;
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    }
+.logo img{
+    height: 85px;
+    padding: 10px;
+
+}
+i{
+    color: #4e4f56;
+}
+p{
+    margin-right: 15px;
+}
+h1{
+    color: yellow;
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+a {
+
+    text-decoration: none;
+    color: white;
+}
+.cards{
+    background-color: rgba(0, 0, 0, .8);
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+
+#promo {
+    width: 90%;
+    height:120px;
+    background-image: url(https://www.laordenweb.com/wp-content/uploads/2021/03/banner-fiinal-web-la-orden.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+
+}
+#pizza{
+    width: 90%;
+    height: 120px;
+    background-image: url(https://d320djwtwnl5uo.cloudfront.net/recetas/share/pizza_Mh3H4eanyBKEsStv1YclPWTf9OUqIi.png);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#empa{
+    width: 90%;
+    height: 120px;
+    background-image: url(https://d320djwtwnl5uo.cloudfront.net/recetas/share/share_fpa6sn8vqc_empanadas.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#burger{
+    width: 90%;
+    height: 120px;
+    background-image: url(https://st2.depositphotos.com/3957801/5642/i/600/depositphotos_56423065-stock-photo-bacon-burger.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#milas{
+    width: 90%;
+    height: 120px;
+    background-image: url(https://cuk-it.com/wp-content/uploads/2022/09/thumb02-2-1024x576.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#papas{
+    width: 90%;
+    height: 120px;
+    background-image: url(https://cdn.guacamouly.com/wp-content/uploads/2022/06/papas-fritas-con-queso-cheddar-y-tocino-layout-youtube-recetas.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#resto{
+    width: 90%;
+    height: 120px;
+    background-image: url(https://assets.unileversolutions.com/recipes-v2/37805.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#bebidas{
+    width: 90%;
+    height: 120px;
+    background-image: url(https://i0.wp.com/diarioprimeralinea.com.ar/wp-content/uploads/2018/01/bebidas-gaseosas.jpg?resize=696%2C392&quality=95&ssl=1);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+/* -----------------POP UP------------------------------- */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0,1);
+    padding: 20px;
+    z-index: 999;
+    border: yellow 1px solid;
+}
+/* PRECIOS */
+#grid {
+    display: grid;
+    width: 90%;
+    grid-template-columns:  1fr 70px;
+    padding-left: 5%;
+  }
+  
+  #areaA {
+    color: #fff;
+    padding: 5px 0;
+    background-color: rgb(51, 54, 51);
+    border-bottom: rgb(109,109,109) 1px solid;
+    padding-left: 3px;
+  }
+  
+  #areaB {
+    padding: 5px 0 5px 10px;
+    background-color: rgb(109, 109, 106);
+    border-bottom: rgb(51, 54, 51)solid 1px;
+    color: yellow; 
+  }
+  #grid-2 {
+    display: grid;
+    width: 90%;
+    grid-template-columns:  1fr 70px 85px;
+    padding-left: 5%;
+  }
+
+  #areaC {
+    padding: 5px 0 5px 10px;
+    background-color: rgb(109, 109, 106);
+    border-bottom: rgb(51, 54, 51)solid 1px;
+    color: yellow; 
+    border-left: rgb(51, 54, 51) solid 1px;
+  }
+  
+  .aclaracion{
+    color: rgb(250, 248, 122);
+  }
+/* fin de grid precios */
+
+.subtitulo{
+    margin-left: 5%;
+}
+/* fin */
+
+
+.listado {
+
+    width: 90%;
+    height: auto;
+    background-color: #303139;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    }
+.listado a{
+    color: black;
+    padding: 20px;
+}
+.cards a{
+    color: yellow;
+   
+}
+
+li:hover{
+    color:yellow;
+}
+.telef{
+    color: #000;
+    background-color: yellow;
+    margin-right: 5px;
+    }
+    /* TOQUE ACA!! */
+.p1 i{
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+p{  margin-left: 5%;
+    color: #FFFFFF;
+    padding-right: 8px;
+    
+}
+h2{
+    padding-left: 15px;
+    color: white;
+    background-color: black;
+}
+h3{
+    color: rgb(253, 253, 250);
+    background-color: rgba(0,0,0, .7);       
+}
+h3:hover{
+    background-color: black;
+    color: yellow;
+}
+footer{
+    margin-top: 8px;
+    width: 100%;
+    min-width: 80%;
+}
+.copir a{
+    color: rgb(37, 45, 16);
+    margin-left:auto;
+    text-align:center ;
+    padding-left: 15px;       
+}
+.wsdweb{
+    text-size-adjust: 20px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(187, 183, 183);
+    width: 90%;
+    height: 45px;
+    margin-left: 5%;
+    border-radius:25px 25px 0 0 ;
+    justify-content: center;
+    padding-top: 20px;
+}
+.fijos{
+    position: fixed;
+    z-index: 1000;
+    bottom: 30px;
+    right: 15px;
+}
+.arriba-btn img{
+    width: 50px;
+    border-radius: 50%;
+}
+.wsp-btn img{
+    width: 50px;
+    border-radius: 50%;
+}
